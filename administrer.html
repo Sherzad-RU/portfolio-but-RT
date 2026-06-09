@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrer | Portfolio R&T ROM</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body class="page-admin">
+
+<header class="main-header">
+    <div class="header-container">
+        <div class="header-left">
+            <h1>Portfolio <span class="highlight">R&T</span></h1>
+            <p>B.U.T. Réseaux & Télécommunications – Spécialité ROM</p>
+        </div>
+
+        <nav class="header-right">
+            <ul>
+                <li><a href="index.html" class="nav-link">Accueil</a></li>
+                <li><a href="connecter.html" class="nav-link">Connecter</a></li>
+                <li><a href="administrer.html" class="nav-link active">Administrer</a></li>
+                <li><a href="programmer.html" class="nav-link">Programmer</a></li>
+                <li><a href="securiser.html" class="nav-link">Sécuriser</a></li>
+                <li><a href="surveiller.html" class="nav-link">Surveiller</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="topic-banner admin-theme">
+    <div class="topic-banner-content">
+        <div class="badge">Niveau 2 - Parcours ROM</div>
+        <h2>Compétence : Administrer</h2>
+        <p>Administrer, maintenir et faire évoluer des infrastructures systèmes, réseaux et services numériques.</p>
+    </div>
+</section>
+
+<main class="topic-container">
+
+    <article class="topic-card">
+        <div class="card-header">
+            <h3>L’administration en Réseaux et Télécommunications</h3>
+        </div>
+
+        <div class="card-body">
+            <p>
+                La compétence <strong>Administrer</strong> consiste à installer, configurer, maintenir et dépanner
+                des systèmes, des équipements réseau et des services utilisés dans une infrastructure informatique.
+            </p>
+
+            <p>
+                En deuxième année de B.U.T. Réseaux et Télécommunications, parcours <strong>ROM</strong>,
+                j’ai travaillé cette compétence à travers plusieurs TP, SAÉ et projets, notamment avec des serveurs
+                Linux, Windows Server, Docker, Active Directory, des services réseau et des équipements Cisco.
+            </p>
+
+            <p>
+                L’objectif n’est pas seulement de faire fonctionner un service, mais aussi de comprendre son rôle,
+                de savoir le tester, le dépanner et l’intégrer dans une infrastructure plus complète.
+            </p>
+
+            <div class="skills-tags">
+                <span class="tag">Linux / Windows Server</span>
+                <span class="tag">Docker / VirtualBox</span>
+                <span class="tag">Active Directory / GPO</span>
+                <span class="tag">Cisco / Packet Tracer</span>
+                <span class="tag">DHCP / DNS / Apache</span>
+                <span class="tag">Asterisk / ToIP</span>
+            </div>
+        </div>
+    </article>
+
+    <section class="ac-interactive-grid">
+        <h3 style="margin-bottom: 20px; color: #333;">
+            Apprentissages Critiques & Preuves de Compétence
+        </h3>
+
+        <details class="ac-item">
+            <summary>
+                <div>
+                    <span class="ac-code">AC21.01</span>
+                    <span class="ac-title">Configurer et dépanner le routage dynamique dans un réseau</span>
+                </div>
+                <span class="click-hint">cliquer pour voir la preuve</span>
+            </summary>
+
+            <div class="ac-content">
+                <p>
+                    <strong>Réalisation :</strong> Dans les TP de réseaux et dans la SAE Pépinière,
+                    j’ai configuré des équipements Cisco afin de mettre en place une architecture réseau
+                    avec VLAN, routage inter-VLAN et routage dynamique, notamment avec OSPF.
+                </p>
+
+                <p>
+                    <strong>Méthodologie :</strong> J’ai commencé par créer la topologie réseau,
+                    attribuer les adresses IP, configurer les interfaces, les VLAN, les trunks,
+                    puis activer le routage dynamique. Ensuite, j’ai vérifié les tables de routage
+                    et la connectivité entre les différents réseaux.
+                </p>
+
+                <p>
+                    <strong>Outils utilisés :</strong> Cisco Packet Tracer, commandes Cisco IOS,
+                    machines virtuelles, tests ping et traceroute.
+                </p>
+
+                <p>
+                    <strong>Difficultés rencontrées :</strong> J’ai rencontré des erreurs de configuration OSPF,
+                    notamment des problèmes de réseaux mal déclarés ou d’interfaces qui ne communiquaient pas
+                    correctement.
+                </p>
+
+                <p>
+                    <strong>Ce que j’ai appris :</strong> J’ai compris l’importance d’une configuration précise
+                    du routage dynamique et de la vérification progressive avec des commandes comme
+                    <strong>show ip route</strong> et <strong>show ip ospf neighbor</strong>.
+                </p>
+
+                <p>
+                    <strong>Ce que je ferais autrement :</strong> Je préparerais davantage mon plan d’adressage
+                    et ma topologie avant de commencer la configuration pour limiter les erreurs.
+                </p>
+
+                <p>
+                    <strong>Preuve :</strong> Maquettes Packet Tracer fonctionnelles avec communication entre plusieurs réseaux.
+                </p>
+            </div>
+        </details>
+
+        <details class="ac-item">
+            <summary>
+                <div>
+                    <span class="ac-code">AC21.02</span>
+                    <span class="ac-title">Configurer une politique simple de QoS et les fonctions de base de la sécurité réseau</span>
+                </div>
+                <span class="click-hint">cliquer pour voir la preuve</span>
+            </summary>
+
+            <div class="ac-content">
+                <p>
+                    <strong>Réalisation :</strong> Dans la SAE Pépinière et les TP réseau,
+                    j’ai travaillé sur la sécurisation de l’infrastructure avec des VLAN, des ACL,
+                    du SSH, du Port Security et des règles de filtrage entre les réseaux.
+                </p>
+
+                <p>
+                    <strong>Méthodologie :</strong> J’ai séparé les réseaux selon les usages,
+                    puis j’ai appliqué des règles pour limiter les accès non autorisés.
+                    J’ai également configuré l’accès distant sécurisé avec SSH au lieu de Telnet.
+                </p>
+
+                <p>
+                    <strong>Outils utilisés :</strong> Cisco IOS, Packet Tracer, Wireshark,
+                    SSH, ACL et Port Security.
+                </p>
+
+                <p>
+                    <strong>Difficultés rencontrées :</strong> Les ACL peuvent facilement bloquer trop de trafic
+                    si elles sont mal placées ou mal ordonnées. J’ai donc dû tester chaque règle progressivement.
+                </p>
+
+                <p>
+                    <strong>Ce que j’ai appris :</strong> J’ai appris qu’une bonne sécurité réseau repose
+                    sur la segmentation, le contrôle des accès et la vérification du trafic autorisé ou bloqué.
+                </p>
+
+                <p>
+                    <strong>Ce que je ferais autrement :</strong> Je documenterais plus précisément chaque règle ACL
+                    pour faciliter la maintenance et le dépannage.
+                </p>
+
+                <p>
+                    <strong>Preuve :</strong> Mise en place de règles ACL, sécurisation des ports
+                    et accès distant en SSH.
+                </p>
+            </div>
+        </details>
+
+        <details class="ac-item">
+            <summary>
+                <div>
+                    <span class="ac-code">AC21.03</span>
+                    <span class="ac-title">Déployer des postes clients et des solutions virtualisées adaptées à une situation donnée</span>
+                </div>
+                <span class="click-hint">cliquer pour voir la preuve</span>
+            </summary>
+
+            <div class="ac-content">
+                <p>
+                    <strong>Réalisation :</strong> J’ai utilisé plusieurs machines virtuelles sous Linux
+                    et Windows Server pour créer des environnements de test. J’ai aussi utilisé Docker
+                    pour déployer des services comme mon site Flask avec PostgreSQL.
+                </p>
+
+                <p>
+                    <strong>Méthodologie :</strong> J’ai créé les machines virtuelles, configuré leur réseau,
+                    installé les services nécessaires puis testé la communication entre les machines.
+                    Avec Docker, j’ai utilisé un Dockerfile et docker-compose pour lancer plusieurs services ensemble.
+                </p>
+
+                <p>
+                    <strong>Outils utilisés :</strong> VirtualBox, Docker, docker-compose,
+                    Linux, Windows Server, PostgreSQL et Flask.
+                </p>
+
+                <p>
+                    <strong>Difficultés rencontrées :</strong> J’ai eu des problèmes de réseau entre conteneurs
+                    et machines virtuelles, notamment avec les ports, les interfaces et les noms de services Docker.
+                </p>
+
+                <p>
+                    <strong>Ce que j’ai appris :</strong> J’ai compris la différence entre une machine virtuelle complète
+                    et un conteneur Docker, ainsi que l’intérêt de la virtualisation pour tester une infrastructure
+                    sans matériel physique.
+                </p>
+
+                <p>
+                    <strong>Ce que je ferais autrement :</strong> Je créerais dès le départ un schéma clair
+                    des machines, des adresses IP et des ports utilisés.
+                </p>
+
+                <p>
+                    <strong>Preuve :</strong> Projet Flask/PostgreSQL conteneurisé avec Docker
+                    et déploiement de plusieurs serveurs virtualisés.
+                </p>
+            </div>
+        </details>
+
+        <details class="ac-item">
+            <summary>
+                <div>
+                    <span class="ac-code">AC21.04</span>
+                    <span class="ac-title">Déployer des services réseaux avancés</span>
+                </div>
+                <span class="click-hint">cliquer pour voir la preuve</span>
+            </summary>
+
+            <div class="ac-content">
+                <p>
+                    <strong>Réalisation :</strong> Dans les TP et la SAE Pépinière,
+                    j’ai déployé plusieurs services réseaux comme DHCP, DNS, Apache,
+                    Active Directory, partage de fichiers, GPO et Asterisk pour la téléphonie IP.
+                </p>
+
+                <p>
+                    <strong>Méthodologie :</strong> J’ai installé chaque service séparément,
+                    puis je l’ai intégré dans l’infrastructure globale. Pour chaque service,
+                    j’ai réalisé des tests afin de vérifier son bon fonctionnement.
+                </p>
+
+                <p>
+                    <strong>Outils utilisés :</strong> Linux, Windows Server, Apache,
+                    DNS, DHCP, Active Directory, Asterisk et Wireshark.
+                </p>
+
+                <p>
+                    <strong>Difficultés rencontrées :</strong> Certains services ne fonctionnaient pas au départ
+                    à cause d’erreurs dans les fichiers de configuration, de problèmes de droits
+                    ou de mauvais paramètres réseau.
+                </p>
+
+                <p>
+                    <strong>Ce que j’ai appris :</strong> J’ai appris à analyser les logs,
+                    vérifier les services actifs et corriger les erreurs étape par étape.
+                </p>
+
+                <p>
+                    <strong>Ce que je ferais autrement :</strong> Je testerais chaque service immédiatement
+                    après son installation avant de passer au service suivant.
+                </p>
+
+                <p>
+                    <strong>Preuve :</strong> Serveurs fonctionnels avec services réseau accessibles
+                    depuis les clients de l’infrastructure.
+                </p>
+            </div>
+        </details>
+
+        <details class="ac-item">
+            <summary>
+                <div>
+                    <span class="ac-code">AC21.05</span>
+                    <span class="ac-title">Identifier les réseaux opérateurs et l’architecture d’Internet</span>
+                </div>
+                <span class="click-hint">cliquer pour voir la preuve</span>
+            </summary>
+
+            <div class="ac-content">
+                <p>
+                    <strong>Réalisation :</strong> Dans le parcours ROM, j’ai étudié les réseaux opérateurs,
+                    l’architecture d’Internet, la téléphonie IP, les réseaux mobiles et les principes liés
+                    aux infrastructures télécoms.
+                </p>
+
+                <p>
+                    <strong>Méthodologie :</strong> J’ai travaillé sur des schémas d’architecture,
+                    des études de réseaux, des TP de téléphonie et des projets liés aux infrastructures opérateurs.
+                </p>
+
+                <p>
+                    <strong>Outils utilisés :</strong> Asterisk, Wireshark, Packet Tracer,
+                    documents techniques, srsRAN et analyse de trafic.
+                </p>
+
+                <p>
+                    <strong>Difficultés rencontrées :</strong> Les architectures opérateurs sont plus complexes
+                    qu’un réseau local classique, car elles impliquent plusieurs couches, plusieurs technologies
+                    et des contraintes de disponibilité.
+                </p>
+
+                <p>
+                    <strong>Ce que j’ai appris :</strong> J’ai compris le rôle des opérateurs,
+                    du routage, des services télécoms, de la téléphonie IP et des infrastructures nécessaires
+                    pour connecter les utilisateurs à Internet.
+                </p>
+
+                <p>
+                    <strong>Ce que je ferais autrement :</strong> Je représenterais davantage les architectures
+                    sous forme de schémas pour mieux visualiser les rôles des différents équipements.
+                </p>
+
+                <p>
+                    <strong>Preuve :</strong> Travaux sur la téléphonie IP, étude ROM,
+                    analyse de trafic et projets liés aux réseaux opérateurs.
+                </p>
+            </div>
+        </details>
+
+        <details class="ac-item">
+            <summary>
+                <div>
+                    <span class="ac-code">AC21.06</span>
+                    <span class="ac-title">Travailler en équipe pour développer ses compétences professionnelles</span>
+                </div>
+                <span class="click-hint">cliquer pour voir la preuve</span>
+            </summary>
+
+            <div class="ac-content">
+                <p>
+                    <strong>Réalisation :</strong> Dans la SAE Pépinière, j’ai travaillé en groupe
+                    sur une infrastructure complète. J’ai principalement contribué à la partie site web externe,
+                    à certains éléments de téléphonie, ainsi qu’à la configuration réseau et système.
+                </p>
+
+                <p>
+                    <strong>Méthodologie :</strong> Nous avons réparti les tâches entre les membres du groupe,
+                    partagé les configurations, documenté notre travail et préparé une soutenance commune.
+                </p>
+
+                <p>
+                    <strong>Outils utilisés :</strong> Documentation partagée, Docker,
+                    Packet Tracer, machines virtuelles, rapports SAE et échanges en groupe.
+                </p>
+
+                <p>
+                    <strong>Difficultés rencontrées :</strong> Le travail en équipe demande une bonne organisation.
+                    Il fallait éviter les doublons, expliquer ses choix aux autres et intégrer les différentes parties
+                    du projet ensemble.
+                </p>
+
+                <p>
+                    <strong>Ce que j’ai appris :</strong> J’ai appris à mieux communiquer techniquement,
+                    à documenter mon travail et à présenter mes réalisations de manière claire lors d’un projet collectif.
+                </p>
+
+                <p>
+                    <strong>Ce que je ferais autrement :</strong> Je mettrais en place dès le début une meilleure répartition
+                    des tâches et un suivi plus régulier de l’avancement de chaque partie.
+                </p>
+
+                <p>
+                    <strong>Preuve :</strong> Participation à la SAE Pépinière, documentation technique,
+                    site web externe, intégration avec l’infrastructure réseau.
+                </p>
+            </div>
+        </details>
+
+    </section>
+
+    <article class="topic-card soft-card">
+        <div class="card-header">
+            <h3>Synthèse personnelle</h3>
+        </div>
+
+        <div class="card-body">
+            <p>
+                Cette compétence m’a permis de progresser dans l’administration concrète d’une infrastructure.
+                J’ai appris à ne pas seulement installer un service, mais aussi à vérifier son fonctionnement,
+                à analyser les erreurs et à justifier mes choix techniques.
+            </p>
+
+            <p>
+                Les projets réalisés m’ont aussi montré l’importance de la documentation, du travail en équipe
+                et de la méthode de dépannage. En alternance, ces compétences sont directement utiles,
+                car elles correspondent à des situations proches du monde professionnel.
+            </p>
+
+            <div class="skills-grid">
+                <div>
+                    <strong>Compétences techniques</strong>
+                    <ul>
+                        <li>Administration Linux et Windows</li>
+                        <li>Services réseau</li>
+                        <li>Virtualisation et Docker</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <strong>Diagnostic</strong>
+                    <ul>
+                        <li>Analyse des logs</li>
+                        <li>Tests de connectivité</li>
+                        <li>Dépannage progressif</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <strong>Compétences professionnelles</strong>
+                    <ul>
+                        <li>Documentation technique</li>
+                        <li>Travail en équipe</li>
+                        <li>Présentation des choix techniques</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </article>
+
+</main>
+
+<footer class="main-footer">
+    <p>© 2026 – SHERZAD Ruhollah – Portfolio B.U.T. R&T ROM</p>
+</footer>
+
+</body>
+</html>
